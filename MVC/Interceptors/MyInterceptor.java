@@ -1,3 +1,8 @@
+Interceptor implementujący `preHandle` dla wszystkich odwołań REST; dane z interceptora do kontrolera przekazywane przez 
+statyczne pola i metody UserContext (w ramach parametrów ThreadLocal). 
+
+
+
 @Component
 public class MyInterceptor extends HandlerInterceptorAdapter {
     @Override
